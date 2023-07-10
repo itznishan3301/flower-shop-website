@@ -14,7 +14,6 @@
 }
 
 .banner-content {
-    padding: ;
     color: #272727;
     line-height: normal;
     padding: 130px 350px 0px 200px;
@@ -26,19 +25,54 @@
     padding: 50px 150px 0px 0px;
 }
 
-.banner-content h1{
+.banner-content h1 {
     font-size: 30px;
     font-weight: 800;
 }
 
-.banner-content p{
+.banner-content p {
     padding: 20px 0px 20px 0px;
 }
 
-.banner-content .btn{
+.banner-content .btn {
     border: 2px solid transparent;
     background-color: #E55473;
-    padding: 17px 30px;;
+    padding: 17px 30px;
     border-radius: 5px;
     color: white;
+}
+
+section .featured-content{
+    text-align: center;
+    padding: 10px;
+}
+
+section .catagory {
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+    /* border: 2px solid transparent; */
+    align-items: center;
+    padding: 50px 400px 0px 400px;
+}
+
+.catagory .img1 {
+    width: 200px;
+    height: 228px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border: 2px solid rgba(167, 33, 98, 0.15;
+}
+
+.catagory .img2 {
+    width: 210px;
+    height: 228px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin: 0px 60px 0px 60px;
+    border: 2px solid rgba(5, 151, 160, 0.15);
+}
+
+.catagory .img3 {
+    width: 214px;
+    height: 228px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border: 2px solid rgba(71, 125, 17, 0.15);
 }
