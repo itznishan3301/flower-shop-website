@@ -22,13 +22,13 @@ body {
 .banner-content {
     color: #272727;
     line-height: normal;
-    padding: 130px 350px 0px 200px;
+    padding: 130px 350px 80px 180px;
 }
 
 .banner-pic {
-    width: 335px;
-    height: 400px;
-    padding: 50px 150px 0px 0px;
+    width: 350px;
+    height: 450px;
+    padding: 135px 150px 0px 0px;
 }
 
 .banner-title {
@@ -44,7 +44,7 @@ body {
     border: 2px solid transparent;
     background-color: #E55473;
     padding: 17px 30px;
-    margin-top: 50px;
+    margin-top: 30px;
     border-radius: 5px;
     color: white;
 }
@@ -173,3 +173,60 @@ body {
     padding-right: 60px;
 }
 
+/* Subscribe Style */
+.subscription input{
+    padding: 15px 80px;
+    border-radius: 8px;
+    border: 0;
+    color: rgba(39, 39, 39, 0.60);
+}
+.subscription{
+    background-image: url(./images/subscribe.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 80%;
+    border-radius: 8px;
+    margin: auto;
+      
+}
+.sub-content{
+   text-align: center;
+   padding: 80px 0;
+
+}
+.sub-content p{
+    color: rgba(39, 39, 39, 0.60);
+}
+.field-input{
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+.btn{
+    font-size: 15px;
+    background: #E55473;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+}
+
+/* Footer Style */
+.footer-container{
+    margin-top: 80px;
+    padding: 50px 0;
+    background-color: #111010;
+    color: white;
+    text-align: center;
+}
+.footer-content p{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.771);
+    width: 50%;
+    margin: auto;
+}
+
+.cope-right{
+    color: brown ;
+}
+/* Footer Style END Here */
