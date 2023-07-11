@@ -164,7 +164,7 @@ body {
 .i-image {
     display: flex;
     width: 70px;
-    margin: 30px 40px 0px 110px;
+    margin: 30px 40px 150px 110px;
     padding: 50px 50px 0px 50px;
 }
 
@@ -173,7 +173,7 @@ body {
     padding-right: 60px;
 }
 
-/* Subscribe Style */
+/* Subscription Styles */
 .subscription input{
     padding: 15px 80px;
     border-radius: 8px;
@@ -181,7 +181,7 @@ body {
     color: rgba(39, 39, 39, 0.60);
 }
 .subscription{
-    background-image: url(./images/subscribe.png);
+    background-image: url(../assets/rectangle9.png);
     background-repeat: no-repeat;
     background-size: auto;
     width: 80%;
@@ -229,4 +229,3 @@ body {
 .cope-right{
     color: brown ;
 }
-/* Footer Style END Here */
